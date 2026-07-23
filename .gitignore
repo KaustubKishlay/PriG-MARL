@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw datasets (large; re-downloadable via download_dataset.py / public sources)
+data/raw/
+
+# Model checkpoints and training artifacts
+checkpoints/
+results/checkpoints/
+results/logs/
+results/archive_pre_fix/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# Scratch / temp
+scratch/
+*.tmp
